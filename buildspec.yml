@@ -14,4 +14,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync dist/github_s3_angular_app/ s3://github-s3-angular-app --delete
+      - aws s3 sync dist/github-s3-angular-app/ s3://github-s3-angular-app --delete
